@@ -1,7 +1,7 @@
 :root{
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-
+/*fonts*/
 }
 * {
   margin: 0;
@@ -85,6 +85,7 @@ a{
   color: black;
   margin-top: 150px;
 }
+/*creating the green closing tags before and after the text*/
 .before-after-heading:before{
   content: "< / ";
   font-size: 40px;
