@@ -1,7 +1,7 @@
 :root{
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-/*fonts*/
+  /*fonts*/
 }
 * {
   margin: 0;
@@ -60,21 +60,21 @@ a{
 .element-space{
   margin: auto 30px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 320px){
   #nav-bar{
     height: 35px;
   }
   #header-sentence{
-    width: 50%;
-    font-size: 15px;
+    width: auto;
+    font-size: 14px;
   }
   .element-space{
-    margin: auto 10px;
+    margin: auto 3px;
   }
   .nav-elements{
-    width: 50%;
-    font-size: 14px;
-    margin-top: -30px;
+    width: auto;
+    font-size: 12px;
+    margin-top: -28px;
     margin-right: -20px;
   }
 }
@@ -102,10 +102,10 @@ a{
   color: #105a10;
   text-align: center;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 320px){
   #first-heading {
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 13px;
+    margin-top: 80px;
   }
   .before-after-heading:before,.before-after-heading:after{
     font-size: 28px;
@@ -151,11 +151,14 @@ h1,h3,.project-url,footer{
   font-size: 24px;
   font-family: Seravek, sans-serif;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 320px){
+  .first-sentence{
+    font-size: 16px;
+  }
   .white-box{
-    margin: auto auto auto 50px;
-    width: 80%;
-    height: 340px;
+    margin: -30px auto auto 15px;
+    width: 90%;
+    height: 310px;
   }
   .main-headings{
     font-size: 24px;
@@ -167,7 +170,7 @@ h1,h3,.project-url,footer{
     margin: 10px auto auto 10px;
   }
   .paragraph-wrapper{
-    font-size: 18px;
+    font-size: 14px;
     margin: 10px 25px 0 20px;
   }
 }
@@ -257,23 +260,23 @@ h1,h3,.project-url,footer{
   font-family: Seravek, sans-serif;
   font-size: 20px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 320px){
   .second-box{
     margin: 20px 0;
-    height: fit-content;
+    height: auto;
+    padding-bottom: 20px;
   }
   #align-heading{
-    margin: 10px auto 10px 160px;
+    margin: 10px auto 10px 80px;
   }
   .align-heading{
     font-size: 24px;
-
   }
   .align-heading:before,.align-heading:after{
     font-size: 24px;
   }
   #progress-div{
-    margin: 80px auto auto auto;
+    margin: 80px 80px auto auto;
     width: 70%;
   }
   .progress-bar{
@@ -281,7 +284,8 @@ h1,h3,.project-url,footer{
     height: 20px;
   }
   #paragraph-under-progress{
-    margin: 80px auto 30px 10px;
+    margin: 80px auto 10px 50px;
+    font-size: 16px;
   }
 }
 .project-box{
@@ -321,7 +325,7 @@ h1,h3,.project-url,footer{
   margin-right: -110px;
 }
 .project-img:hover{
-opacity: 0.8;
+  opacity: 0.8;
 }
 .project-url{
   margin-left: 250px;
@@ -334,13 +338,12 @@ a:link ,a:visited ,a:hover ,a:active{
   color: black;
   text-decoration: none;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 320px){
   .project-box{
     height: 1000px;
-    margin-left: 55px;
   }
   #project-heading{
-    margin: 20px 110px 20px auto;
+    margin: 20px 10px 20px auto;
   }
   .container{
     flex-direction: column;
@@ -349,26 +352,29 @@ a:link ,a:visited ,a:hover ,a:active{
     margin: 0;
   }
   .project-url{
-    text-align: left;
-    margin-left: 90px;
+    text-align: center;
+    margin-left: 1px;
   }
   .project-img{
     flex-direction: column;
+    margin-left: 35px;
   }
   .align-project-left{
     margin-left: 0;
     margin-right: 0;
   }
   #hr{
-    margin-left: 35px;
+    margin-left: 50px;
   }
   #p3{
-    margin-left: 30px;
+    width: auto;
+    margin-left: 100px;
+    font-size: 14px;
   }
 }
 .contact-box{
   margin-top: 600px;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 #contact-section{
   width: 100%;
@@ -382,10 +388,10 @@ a:link ,a:visited ,a:hover ,a:active{
 }
 .contact-icons{
   flex-direction: row;
-  margin-left: 500px;
+  margin-left: 400px;
 }
 .logo{
-  width: 10%;
+  width: 8%;
   height: auto;
   margin: 100px 20px 20px;
 }
@@ -393,19 +399,27 @@ footer{
   opacity: 0.8;
   font-size: 18px;
   text-align: center;
-  margin-bottom: 7px;
+  margin: 40px 385px 5px 1px;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 320px){
+  .contact-box{
+    margin-top: 190px;
+  }
   .contact-heading{
     margin: 30px;
   }
   .contact-icons{
     display: flex;
-    width: 100%;
     margin-left: 0;
   }
   .logo{
-    width: 40%;
-    margin: 150px 20px 20px 20px;
+    width: 80%;
+    margin: 90px 10px 20px 40px;
+  }
+  footer{
+    font-size: 14px;
+    margin-top: 200px;
+    margin-right:0;
+    text-align: center;
   }
 }
