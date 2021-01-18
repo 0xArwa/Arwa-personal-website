@@ -169,7 +169,7 @@ h1,h3,.project-url,footer{
     margin: 10px auto auto 10px;
   }
   .paragraph-wrapper{
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px 25px 0 20px;
   }
 }
@@ -422,6 +422,6 @@ footer{
     margin-top: -25vw;
   }
   .change-size{
-    font-size: 12px;
+    font-size: 14px;
 }
 }
