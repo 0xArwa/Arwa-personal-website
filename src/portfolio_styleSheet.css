@@ -421,7 +421,7 @@ footer{
     margin-right: 0;
     margin-top: -25vw;
   }
-  .align-heading{
-    display: none;
-  }
+  h3{
+    font-size: 14px;
+}
 }
